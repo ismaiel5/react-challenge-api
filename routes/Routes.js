@@ -1,9 +1,9 @@
 var express = require("express");
 var router = express.Router();
-var generateController = require('./ObjectController');
+var generateController = require('../controllers/ObjectController');
 
 
-router.get('/objects', generateController.getObjectsInfo);
+router.get('/randomObjects', generateController.getObjectsInfo);
 router.get('/file', generateController.getFile);
 
 

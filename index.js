@@ -1,5 +1,5 @@
 var express = require("express");
-const routes = require("./Routes");
+const routes = require("./routes/Routes");
 app = express();
 PORT = 8080;
 
