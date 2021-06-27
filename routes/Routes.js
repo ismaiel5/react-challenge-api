@@ -3,7 +3,7 @@ var router = express.Router();
 var generateController = require('../controllers/ObjectController');
 
 
-router.get('/randomObjects', generateController.getObjectsInfo);
+router.get('/randomObjects', generateController.getRandomObjects);
 router.get('/file', generateController.getFile);
 
 
